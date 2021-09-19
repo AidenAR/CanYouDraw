@@ -1,14 +1,8 @@
 
-@media (max-width: 2000px) and (min-width: 1000px){
-	body {
-		background-color: tomato;
-		color: #01796F;
-	}
+@media (max-width: 2000px) and (min-width: 1300px){
 	.drawing {
 		width: 600px;
 		height: 300px;
-		/*wait I think I did it well ??? why is everything big again time to cry*/
-		/* width: 100% !important; */
 		margin-top: 30px;
 		margin-left: 700px;
 
@@ -17,10 +11,8 @@
 	.drawing2 {
 		width: 600px;
 		height: 300px;
-		/*wait I think I did it well ??? why is everything big again time to cry*/
-		/* width: 100% !important; */
-		margin-top: 30px;
-		margin-left: 700px;}
+		margin-top: 350px;
+		margin-left: 1100px;}
 
 	.d2 {
 		width: 600px;
@@ -29,6 +21,80 @@
 		margin-left: -50px;
 	}
 } 
+
+@media (max-width: 1299px) and (min-width: 1000px){
+
+	.drawing {
+		width: 600px;
+		height: 300px;
+		margin-top: 30px;
+		margin-left: 500px;
+
+	}
+
+	.drawing2 {
+		width: 600px;
+		height: 300px;
+		margin-top: 350px;
+		margin-left: 900px;}
+
+	.d2 {
+		width: 500px;
+		height: 500 px;
+		margin-top: 50px;
+		margin-left: -20px;
+	}
+} 
+
+
+@media (max-width: 999px) and (min-width: 750px){
+
+	.drawing {
+		width: 600px;
+		height: 300px;
+		margin-top: 30px;
+		margin-left: 400px;
+
+	}
+
+	.drawing2 {
+		width: 600px;
+		height: 300px;
+		margin-top: 350px;
+		margin-left: 700px;}
+
+	.d2 {
+		width: 500px;
+		height: 500 px;
+		margin-top: 50px;
+		margin-left: -50px;
+	}
+} 
+
+@media (max-width: 749px) and (min-width: 299px){
+
+	.drawing {
+		width: 600px;
+		height: 300px;
+		margin-top: 30px;
+		margin-left: 400px;
+
+	}
+
+	.drawing2 {
+		width: 600px;
+		height: 300px;
+		margin-top: 350px;
+		margin-left: 600px;}
+
+	.d2 {
+		width: 500px;
+		height: 500 px;
+		margin-top: 50px;
+		margin-left: -20px;
+	}
+} 
+
 
 button {
 	background-color: #01796F;
@@ -61,9 +127,8 @@ button {
 	z-index: -1;
 }
 
-
-
-
-
-
-
+body {
+    font-family: Schoolbell, cursive;
+	color: #01796F;
+    background: url(https://i.pinimg.com/originals/90/0b/e1/900be107050da8b7ed3370eec500ed29.jpg) 0% 0% / 100% !important;
+}
