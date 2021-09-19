@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet">
+
+    <title>Can You Draw?</title>
+    <meta name="description" content="Think you can draw? Show off your epic drawing skills to your friends!"/>
+    <link rel="stylesheet" href="index.css"></link>
+    
+  </head>
+  <h1>
+  <center>Can You Draw?</center></h1>
+  <body>
+    <!-- <div style="width: fit-content; margin:auto;"> -->
+    <!--img src="https://lh3.googleusercontent.com/proxy/Eg0HKyLS1FVPkETl5-GHl5wj9T_uh8VIXQbFzPMzfO9SS-LqrxoqjwI610HtF0vZtGh6L3lQRR6SLxI7uGVWxp7tLVtIr4p2M5wGlW9xiiGjNE3ZN9049KSS1OFvu_vRLNpZZQXOwD4CAY4UEhc79L-88o2wfEss8ooAfAmEZVPnBSxWgDktdT5yLsid-9HWk2E9" class="crayon unselectable" -->
+    <!--img src="https://3.bp.blogspot.com/-LXjWX_gFu-0/WuuwVDWoXuI/AAAAAAAAcqo/MrbpSbA_zXYpIMZfz35bGW4zGcSrlFXWQCLcBGAs/s1600/Teal%2BCrayon%2Bmark.png" class="mark unselectable"-->
+    <img src="https://www.pinclipart.com/picdir/big/522-5222428_chalk-apple-png-transparent-chalk-drawings-png-clipart.png" class="drawing unselectable">
+    <img src="https://www.pinclipart.com/picdir/big/522-5222428_chalk-apple-png-transparent-chalk-drawings-png-clipart.png" class="drawing2 unselectable">
+    <img src="https://www.nicepng.com/png/full/96-969133_15-chalk-drawings-png-for-free-download-on.png" class="d2 unselectable">
+    <!-- </div> -->
+
+    <!-- Canvas -->
+    <div style="text-align:center"> 
+    <canvas id="canvas" width="500" height="500"></canvas>
+    </div> 
+ 
+    <div id="content">
+      <h1 id="usernameHeading"></h1>
+
+      <input type="color" id="pen_colour" onchange="new_colour()"   value="#ffffff">
+      <input type="range" id="pen_size" onchange="new_size()" min="10" max="80">
+      <input type="text" id="chatInput" placeholder="Send a Message!">
+      <button type="button" onclick="sendChatMessage()" >Send Message</button>
+      <input type="text" id="usernameInput" placeholder="Set your username!">
+      <button type="button" onclick="handleUpdateUsername()">Set Username</button>
+      <button type="button" onclick="handleClearCanvas()">Clear Canvas</button>
+
+      <div id="chat">
+      </div>
+    </div>
+
+    <a href="todo.html">To Do List</a>
+  </body>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="socket.js"></script>
+  <script src="utils.js"></script>
+  <script src="index.js"></script>
+  <script src="chat.js"></script>
+</html>
