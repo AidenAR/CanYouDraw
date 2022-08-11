@@ -1,6 +1,6 @@
 # Can You Draw?
 
-[Visit the site hosted live on Heroku!](https://github.com/RyanSamman/CanYouDraw)
+[Visit the site hosted live on Heroku!](https://can-you-draw.herokuapp.com)
 
 ![Can You Draw? Project Image](./example.png)
 
