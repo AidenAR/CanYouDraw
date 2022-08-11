@@ -1,5 +1,7 @@
 # Can You Draw?
 
+[Visit the site hosted live on Heroku!](https://github.com/RyanSamman/CanYouDraw)
+
 ![Can You Draw? Project Image](./example.png)
 
 A project created by a bunch of UWaterloo students for Hack the North 2021!
